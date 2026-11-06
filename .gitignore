@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets (keep .env.example)
+.env
+
+# Model weights / large artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# Data, logs, outputs
+data/raw/
+logs/
+outputs/
+wandb/
+
+# Delivery zips
+dist/
+
+# OS / misc
+.DS_Store
+node_modules/
